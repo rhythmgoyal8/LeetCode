@@ -7,7 +7,7 @@ public class DivideTwoIntegers {
             return Integer.MAX_VALUE;
         }
 
-        long a = (dividend / divisor); // Division using / operator
+        long a = (dividend / divisor);
         return (int) a;
     }
 
