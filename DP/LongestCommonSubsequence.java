@@ -33,5 +33,6 @@ public class LongestCommonSubsequence {
         LongestCommonSubsequence lcs = new LongestCommonSubsequence();
         int result = lcs.longestCommonSubsequence(text1, text2);
         System.out.println("Length of Longest Common Subsequence: " + result);
+        sc.close();
     }
 }

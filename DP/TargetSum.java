@@ -22,6 +22,7 @@ public class TargetSum {
         // Compute and print result
         int result = findTargetSumWays(nums, target);
         System.out.println("Number of ways to reach target sum: " + result);
+        sc.close();
     }
 
     public static int findTargetSumWays(int[] nums, int target) {
